@@ -1,6 +1,9 @@
 # chroot-distro
 chroot-distro :
   Install linux distributions on android
+> warning : # chroot-distro
+chroot-distro :
+  Install linux distributions on android
 > warning : this work only on rooted android devices
 
 + chroot-distro path : /data/local/chroot-distro/
@@ -138,4 +141,3 @@ vncserver -kill :1
 ### Install chroot-distro
 
 + [module](https://github.com/YasserNull/chroot-distro/releases/tag/module)
-> warning : required busybox for android ndk module 
