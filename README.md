@@ -125,11 +125,7 @@ apt install tightvncserver nano dbus-x11 xfce4 xfce4-goodies xfce4-terminal
 update-alternatives --config x-terminal-emulator
 vncserver
 vncserver -kill :1
-nano ~/.vnc/xstartup
-```
-Add this to the last line
-```
-startxfce4 &
+echo 'startxfce4 &' >> ~/.vnc/xstartup
 ```
 start server : 
 ```
